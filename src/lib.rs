@@ -50,6 +50,7 @@ fn exercise3() {
 
         // Sumar valores en additions
         for element_index in &additions {
+            // for element_index in additions.inter() {
             let addition_aux = values[*element_index];
             addition = addition_aux + addition;
         }
